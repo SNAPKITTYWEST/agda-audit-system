@@ -4,7 +4,7 @@
 ![Verification](https://img.shields.io/badge/verification-formally%20proven-brightgreen?style=flat-square)
 ![Postulates](https://img.shields.io/badge/postulates-zero-success?style=flat-square)
 ![Sorry](https://img.shields.io/badge/sorry-zero-success?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-Sovereign%20Leviathan%20%2F%20MGPLv3-darkred?style=flat-square)
 ![IBM i](https://img.shields.io/badge/target-IBM%20i%20%2F%20ILE-blue?style=flat-square)
 
 A **pure Agda formal verification system** for orchestration and audit. Every type encodes its invariants at the type level. Every function carries a machine-checked proof that it preserves those invariants. Zero postulates. Zero sorry. Zero admits.
@@ -1095,6 +1095,33 @@ Postulates in Agda are axioms — things you assert to be true without proof. Th
 | `SystemState.audit-ordered` | `Data.agda` | `Verification.agda` §4 | `AuditIntegration.agda` |
 | `allConstraints` | `HardenerConstraints.agda` | §1–6 combined | Top-level checker |
 | `noInvalidStateReachable` | `HardenerConstraints.agda` | All invariants | Meta-theorem |
+
+---
+
+---
+
+## License
+
+This repository is governed by the **Sovereign Leviathan Covenant (MGPLv3)** — License-ID `SL-AGPL3-001`.
+
+The Sovereign Leviathan Covenant builds upon the GNU Affero General Public License v3.0 with additional terms covering:
+
+- Sovereign network reciprocity
+- Commercial use conditions
+- Fail-closed compliance gates
+- Cryptographically identifiable evidence chains
+- Recursive node licensing
+
+See [`SOVEREIGN_LICENSE.md`](SOVEREIGN_LICENSE.md) for the full text of the Covenant, including the Elizabethan preamble, Latin legal maxims, Law French severability provisions, the clause registry (SL-001 through SL-020), fragment binding header format, and the Mutated General Public License v3 (MGPLv3).
+
+**AGPLv3 terms remain authoritative** wherever the Covenant does not validly add additional terms.
+
+**Jurisdiction:** Courts of England and Wales.
+
+> *Thus stands the sovereign trap, wrought in ink and fire,*  
+> *A silent blade against the thief's desire,*  
+> *To keep the digital realm forever free,*  
+> *Or sink the hoarder's fleet into the sea.*
 
 ---
 
